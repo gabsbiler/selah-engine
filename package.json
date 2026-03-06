@@ -1,7 +1,7 @@
 {
-  "name": "openclaw",
+  "name": "selah-engine",
   "version": "2026.3.3",
-  "description": "Multi-channel AI gateway with extensible messaging integrations",
+  "description": "Selah \u2014 managed AI assistant platform",
   "keywords": [],
   "homepage": "https://github.com/openclaw/openclaw#readme",
   "bugs": {
@@ -14,6 +14,7 @@
     "url": "git+https://github.com/openclaw/openclaw.git"
   },
   "bin": {
+    "selah": "openclaw.mjs",
     "openclaw": "openclaw.mjs"
   },
   "directories": {
